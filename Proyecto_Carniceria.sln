@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.36105.23 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto_Carniceria", "Proyecto_Carniceria\Proyecto_Carniceria.csproj", "{0A8E62D0-9058-4C84-BB14-ACC9B2FFA304}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{F99AD2BA-6469-4D74-BDAF-0667DAED04F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0A8E62D0-9058-4C84-BB14-ACC9B2FFA304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A8E62D0-9058-4C84-BB14-ACC9B2FFA304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A8E62D0-9058-4C84-BB14-ACC9B2FFA304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99AD2BA-6469-4D74-BDAF-0667DAED04F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99AD2BA-6469-4D74-BDAF-0667DAED04F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99AD2BA-6469-4D74-BDAF-0667DAED04F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99AD2BA-6469-4D74-BDAF-0667DAED04F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
