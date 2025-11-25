@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrantions\**" />
+    <Content Remove="Migrantions\**" />
+    <EmbeddedResource Remove="Migrantions\**" />
+    <None Remove="Migrantions\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.11">
@@ -23,11 +30,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Migrantions\" />
+    <ProjectReference Include="..\Data\Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Data\Data.csproj" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>
